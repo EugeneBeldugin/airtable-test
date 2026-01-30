@@ -1,0 +1,21 @@
+.container {
+    overflow: hidden;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: #fafafa;
+    flex-shrink: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    padding: 12px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+    border-right: 1px solid #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    user-select: none;
+}
